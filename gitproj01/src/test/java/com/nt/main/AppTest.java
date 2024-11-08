@@ -28,4 +28,11 @@ public class AppTest {
         int expected =100;
         assertEquals(expected, actual);
     }
+    @Test
+    public void testsumwithzero() {
+        App app=new App();
+        int actual=app.sum(0, 0);
+        int expected =0;
+        assertEquals(expected, actual);
+    }
 }
